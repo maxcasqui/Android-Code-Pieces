@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/primaryGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_push_not"
+            android:icon="@drawable/ic_push_notification"
+            android:title="@string/menu_push_notification"/>
+    </group>
+
+    <group
+        android:id="@+id/secondaryGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings"/>
+    </group>
+
+    <!-- <item android:title="@string/menu_section_primary">
+        <menu>
+            <item
+                android:id="@+id/nav_drawer_push_not"
+                android:icon="@drawable/ic_push_notification"
+                android:title="@string/menu_push_notification"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_section_secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_drawer_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item> -->
+
+</menu>

@@ -1,8 +1,19 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.KCodePieces" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="navigationViewStyle">@style/Widget.App.NavigationView</item>
+    </style>
+    
+    <style
+        name="Widget.App.NavigationView"
+        parent="Widget.MaterialComponents.NavigationView">
+
+        <item name="itemIconTint">@color/primaryDark</item>
+        <item name="itemTextColor">@color/primaryDark</item>
+        <item name="itemShapeFillColor">@color/navigation_item_color</item>
+
     </style>
 
     <style name="Theme.KCodePieces" parent="Base.Theme.KCodePieces" />
