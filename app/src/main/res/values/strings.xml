@@ -9,5 +9,8 @@
     <string name="menu_push_notification">Push Notification</string>
     <string name="menu_settings">Settings</string>
 
+    <!-- PUSH NOTIFICATION FRAGMENT -->
+    <string name="btn_push_notification">Notify</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
